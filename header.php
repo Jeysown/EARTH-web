@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="maps.php">EARTH</a>
+          <a class="navbar-brand" href="maps.php" style="padding: 0px 15px;"><img src="images/logo.png" alt="" width="26%;"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">

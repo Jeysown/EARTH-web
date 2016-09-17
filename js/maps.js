@@ -158,6 +158,7 @@ function showEvacuation() {
           }
           function coordinates(lat,lng,Tsunami,mag,time){
             marker = new google.maps.Marker({
+              icon: 'images/earthquake-3.png',
               position: new google.maps.LatLng(lat,lng),
               map: map
             });

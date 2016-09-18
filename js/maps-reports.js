@@ -1,7 +1,7 @@
 var markers = [];
 
 var map = new google.maps.Map(document.getElementById('map'), {
-zoom: 9,
+zoom: 7,
 center: new google.maps.LatLng(14.8302664,121.1126421),
 mapTypeId: google.maps.MapTypeId.ROADMAP
 });

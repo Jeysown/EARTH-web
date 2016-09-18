@@ -49,26 +49,21 @@
                                 <tbody>
                                   <tr>
                                     <td class="col-lg-4" style="text-align:center;"><img src="images/safe.png" alt="" style="height:55px;"/></td>
-                                    <td style="text-align:justify;font-size:16px;" class="col-lg-8">Blue indicator indicates that a certain forest/protected area and it's vicinity has a good to average stability with regards to the standard of the forest based on the reports that are coming from the people in the said place.
-                                    <br><br>
-                                     <b>Ex.</b> Some supposedly extinct happens to be not extinct yet, trees are growing, or any positive things that has a good effect to the forest.</td>
+                                    <td style="text-align:justify;font-size:16px;" class="col-lg-8">The legend specifies the reported safe by the user using the mobile application. It provides the location, date, and time when the report is sent.</td>
                                   </tr>
                                   <tr>
                                     <td style="text-align:center;"><img src="images/danger.png" alt="" style="height:55px;"/></td>
-                                    <td style="text-align:justify;font-size:16px;">Orange - Orange indicator indicates that a certain forest/protected area has some threat of abuse, destruction or illegel loggers or even miners.
-                                    <br><br>  <b>Ex.</b> Some issues like over cutting of trees, illegal hunting of animals, unauthorized plant or workshop within the forest.
+                                    <td style="text-align:justify;font-size:16px;">The legend specifies the reported danger by the user using the mobile application. It provides the location, date, and time when the report is sent.
                                     </td>
 
                                   </tr>
                                   <tr>
                                     <td style="text-align:center;"><img src="images/house.png" alt="" style="height:55px;"/></td>
-                                    <td style="text-align:justify;font-size:16px;">Red - Red indicator indicates that a certain forest/protected are has an urgent need of rescue or action from authority within 12-24 hours.
-                                    <br><br> <b>Ex.</b>Forest Fire, Deforestation effects like landslides and flash floods.</td>
+                                    <td style="text-align:justify;font-size:16px;">The legend will provide the nearest evacuation centers or open areas to the users.</td>
                                   </tr>
                                   <tr>
                                     <td style="text-align:center;"><img src="images/earthquake-3.png" alt="" style="height:55px;"/></td>
-                                    <td style="text-align:justify;font-size:16px;">Red - Red indicator indicates that a certain forest/protected are has an urgent need of rescue or action from authority within 12-24 hours.
-                                    <br><br> <b>Ex.</b>Forest Fire, Deforestation effects like landslides and flash floods.</td>
+                                    <td style="text-align:justify;font-size:16px;">The legend will show all of the valley fault system all over the Philippines and the exact location of each fault. It will also show the area that will be affected by the fault if a certain earthquake occur. Each area will show the general population that can be possibly affected. </td>
                                   </tr>
                                 </tbody>
                             </table>

@@ -21,7 +21,7 @@ if ($result->num_rows > 0) {
      // output data of each row
 		 $j=0;
      while($row = $result->fetch_assoc()) {
-				 $safe[$j]=array($row["Status"],$row["Date"],$row["Time"],$row["lat"],$row["lng"]);
+				 $safe[$j]=array($row["status"],$row["date_happened"],$row["time_happened"],$row["lat"],$row["lng"]);
 				 $j++;
      }
 } else {
@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
 		 $i=0;
      while($row = $result->fetch_assoc()) {
 
-			 $danger[$i]=array($row["Status"],$row["Date"],$row["Time"],$row["lat"],$row["lng"]);
+			 $danger[$i]=array($row["status"],$row["date_happened"],$row["time_happened"],$row["lat"],$row["lng"]);
 			 $i++;
      }
 } else {
@@ -47,14 +47,14 @@ if ($result->num_rows > 0) {
 }
 //all
 //safe
-$sql = "SELECT * FROM reports";
+$sql = "SELECT * FROM reports ORDER BY date_happened DESC, time_happened DESC;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
      // output data of each row
 		 $j=0;
      while($row = $result->fetch_assoc()) {
-				 $all[$j]=array($row["Status"],$row["Date"],$row["Time"],$row["lat"],$row["lng"]);
+				 $all[$j]=array($row["status"],$row["date_happened"],$row["time_happened"],$row["lat"],$row["lng"]);
 				 $j++;
      }
 } else {
